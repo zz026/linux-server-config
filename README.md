@@ -258,7 +258,9 @@ ssl_prefer_server_ciphers on; #使用服务器端的首选算法
 
 支持多版本Nodejs
 
+```
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+```
 
 修改配置
 
@@ -636,7 +638,9 @@ bind_ip = 0.0.0.0
 
 
 
-## 阿里云 ip无法访问
+## 其他问题
+
+### 阿里云IP无法访问
 
 打开服务器实例 选择安全组 
 
