@@ -1,4 +1,4 @@
-# linux-server-config# 服务端配置
+# 服务端配置
 
 linux CentOS 8.2 64位
 
