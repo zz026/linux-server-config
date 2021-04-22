@@ -85,7 +85,6 @@ location / {
 供参考
 
 ```
-
 #user  nobody;
 worker_processes  1;
 
@@ -617,8 +616,8 @@ vim mongodb.conf
 
 ```
 port=27017
-dbpath= /usr/mongodb/db
-logpath= /usr/mongodb/mongodb.log
+dbpath= /usr/local/mongodb/db
+logpath= /usr/local/mongodb/mongodb.log
 logappend=true
 fork=true #守护模式
 maxConns=100
@@ -631,7 +630,7 @@ bind_ip = 0.0.0.0
 ### 启动
 
 ```
-/usr/local/mongodb/bin/mongod --config /usr/mongodb/mongodb.conf
+/usr/local/mongodb/bin/mongod --config /usr/local/mongodb/mongodb.conf
 ```
 
 
